@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class number
+class odd
 {
 public static void main(String args[])
 {
@@ -11,5 +11,5 @@ if(a%2==0)
 System.out.println("even");
 
 else
-Sysem.out.println("odd");
+System.out.println("odd");
 }}

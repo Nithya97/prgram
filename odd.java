@@ -6,11 +6,10 @@ public static void main(String args[])
 {
 Scanner s=new Scanner(System.in);
 int a=s.nextInt();
-if(a==0)
+if(a%2==0)
 
-System.out.println("zero");
-else if(a>0)
-System.out.println("positive");
+System.out.println("even");
+
 else
-Sysem.out.println("negative");
+Sysem.out.println("odd");
 }}
